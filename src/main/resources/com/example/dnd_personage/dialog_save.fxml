@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ButtonType?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<DialogPane maxHeight="300.0" maxWidth="300.0" minHeight="300.0" minWidth="300.0" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+    <content>
+        <AnchorPane prefHeight="224.0" prefWidth="300.0">
+            <children>
+                <TextField fx:id="inputAttributeNameField" layoutX="75.0" layoutY="127.0" promptText="Enter name of saving" />
+                <Label layoutX="66.0" layoutY="43.0" text="Save generated attributes">
+                    <font>
+                        <Font name="Century" size="14.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </content>
+    <buttonTypes>
+        <ButtonType fx:constant="OK" />
+        <ButtonType fx:constant="CANCEL" />
+    </buttonTypes>
+</DialogPane>
